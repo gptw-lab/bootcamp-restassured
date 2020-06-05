@@ -12,7 +12,7 @@ public class JuiceShopTest {
 
     @BeforeClass
     public void setup(){
-        RestAssured.baseURI = "http://localhost:3000";
+        RestAssured.baseURI = "http://juice-shop:3000";
     }
 
     @Test
